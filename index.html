@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090909">
+    <meta name="description" content="Organize os agendamentos da sua barbearia com o NEXUS Agenda. Mais organização, praticidade e controle para o seu negócio.">
+
+    <title>NEXUS Agenda | Sua barbearia no controle</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#inicio" class="logo" aria-label="NEXUS Agenda - Início">
+                <span class="logo-mark">
+                  <img src="logo.png" alt="NEXUS Agenda">
+                </span>
+                <span>NEXUS<span class="gold">.</span><small>AGENDA</small></span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Abrir menu" aria-expanded="false"
+                    aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#beneficios">Benefícios</a>
+                <a href="#funcionalidades">Funcionalidades</a>
+                <a href="#como-funciona">Como funciona</a>
+                <a href="#contato" class="nav-cta">Quero conhecer <span>↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="inicio">
+            <div class="hero-glow"></div>
+
+            <class="container hero-grid">
+                <div class="hero-content">
+                    <div class="eyebrow">
+                        <span class="status-dot"></span>
+                        GESTÃO INTELIGENTE PARA BARBEARIAS
+                    </div>
+
+                    <h1>
+                        SUA BARBEARIA.<br>
+                        SUA ROTINA.<br>
+                        <span class="gold">SOB CONTROLE.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Organize seus agendamentos, clientes e serviços em um só lugar.
+                        Menos confusão na rotina. Mais controle sobre o seu negócio.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#contato" class="button button-primary">
+                            Conhecer o NEXUS <span>↗</span>
+                        </a>
+                        <a href="#beneficios" class="button button-secondary">
+                            Descobrir benefícios
+                        </a>
+                    </div>
+
+                    <div class="hero-note">
+                        <span class="note-icon">✓</span>
+                        Feito para a rotina de pequenas barbearias.
+                    </div>
+                </div>
+
+                <div class="dashboard-scene screenshot-scene">
+                  <div class="screenshot-frame">
+                    <div class="screenshot-top">
+                      <span class="screenshot-dot"></span>
+                      <span class="screenshot-dot"></span>
+                      <span class="screenshot-dot"></span>
+                      <span class="screenshot-label">NEXUS AGENDA / PAINEL REAL</span>
+                    </div>
+
+                    <img
+                      src="nexus-dashboard.png"
+                      alt="Painel real do sistema NEXUS Agenda"
+                      class="nexus-screenshot">
+                  </div>
+                
+                  <div class="floating-tag">
+                    <span class="floating-check">✓</span>
+                    <div>
+                      <strong>Mais organização</strong>
+                      <small>Em toda a sua rotina</small>
+                    </div>
+                  </div>
+                </div>
+
+            <div class="container hero-bottom">
+                <span>ORGANIZAÇÃO</span>
+                <i></i>
+                <span>PRATICIDADE</span>
+                <i></i>
+                <span>CONTROLE</span>
+            </div>
+        </section>
+
+        <section class="benefits section" id="beneficios">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">POR QUE NEXUS?</span>
+                    <h2>Menos tempo organizando.<br><span class="gold">Mais tempo cuidando do negócio.</span></h2>
+                    <p>Uma rotina mais clara começa com as informações no lugar certo.</p>
+                </div>
+
+                <div class="benefit-grid">
+                    <article class="benefit-card">
+                        <div class="feature-icon">▦</div>
+                        <span class="card-number">01 / AGENDA</span>
+                        <h3>Horários organizados</h3>
+                        <p>Consulte seus agendamentos e mantenha os horários da barbearia organizados.</p>
+                    </article>
+
+                    <article class="benefit-card">
+                        <div class="feature-icon">♙</div>
+                        <span class="card-number">02 / CLIENTES</span>
+                        <h3>Clientes cadastrados</h3>
+                        <p>Reúna os dados dos seus clientes para consultar as informações com praticidade.</p>
+                    </article>
+
+                    <article class="benefit-card">
+                        <div class="feature-icon">✳</div>
+                        <span class="card-number">03 / SERVIÇOS</span>
+                        <h3>Serviços sob controle</h3>
+                        <p>Organize os serviços oferecidos, seus preços e a duração de cada atendimento.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="features section" id="funcionalidades">
+            <div class="container features-grid">
+                <div class="features-copy">
+                    <span class="eyebrow">GESTÃO SEM COMPLICAÇÃO</span>
+                    <h2>O essencial para<br><span class="gold">sua barbearia evoluir.</span></h2>
+                    <p>
+                        Chega de depender de informações espalhadas.
+                        Tenha uma ferramenta pensada para facilitar a administração
+                        do dia a dia da sua barbearia.
+                    </p>
+
+                    <ul class="feature-list">
+                        <li><span>✓</span> Cadastro e consulta de clientes</li>
+                        <li><span>✓</span> Cadastro e gerenciamento de serviços</li>
+                        <li><span>✓</span> Criação e edição de agendamentos</li>
+                        <li><span>✓</span> Controle de horários conflitantes</li>
+                        <li><span>✓</span> Visão geral da agenda e do negócio</li>
+                    </ul>
+
+                    <a href="#contato" class="text-link">Quero conhecer melhor <span>→</span></a>
+                </div>
+
+                <div class="features-visual">
+                    <div class="visual-frame">
+                        <div class="visual-top">
+                            <div class="visual-dots"><i></i><i></i><i></i></div>
+                            <span>NEXUS / ORGANIZAÇÃO</span>
+                        </div>
+                        <div class="visual-content">
+                            <span class="visual-overline">GESTÃO EM UM SÓ LUGAR</span>
+                            <div class="visual-title">Sua rotina,<br><span class="gold">mais simples.</span></div>
+
+                            <div class="visual-row">
+                                <div class="visual-symbol">▦</div>
+                                <div><strong>Agendamentos</strong><small>Seus horários organizados</small></div>
+                                <span class="visual-arrow">↗</span>
+                            </div>
+
+                            <div class="visual-row">
+                                <div class="visual-symbol">♙</div>
+                                <div><strong>Clientes</strong><small>Informações centralizadas</small></div>
+                                <span class="visual-arrow">↗</span>
+                            </div>
+
+                            <div class="visual-row">
+                                <div class="visual-symbol">✳</div>
+                                <div><strong>Serviços</strong><small>Preços e durações</small></div>
+                                <span class="visual-arrow">↗</span>
+                            </div>
+
+                            <div class="visual-footer">
+                                <span class="status-dot"></span>
+                                ORGANIZAÇÃO QUE FAZ SENTIDO
+                            </div>
+                        </div>
+                    </div>
+                    <div class="visual-decoration"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="steps section" id="como-funciona">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">É MAIS SIMPLES DO QUE PARECE</span>
+                    <h2>Comece com <span class="gold">o pé direito.</span></h2>
+                    <p>Conheça a plataforma e descubra como ela pode fazer parte da sua rotina.</p>
+                </div>
+
+                <div class="steps-grid">
+                    <article class="step-card">
+                        <span class="step-number">01</span>
+                        <h3>Entre em contato</h3>
+                        <p>Converse com nossa equipe para conhecer o NEXUS Agenda.</p>
+                    </article>
+                    <article class="step-card">
+                        <span class="step-number">02</span>
+                        <h3>Conheça o sistema</h3>
+                        <p>Veja como organizar clientes, serviços e agendamentos.</p>
+                    </article>
+                    <article class="step-card">
+                        <span class="step-number">03</span>
+                        <h3>Organize sua rotina</h3>
+                        <p>Descubra se o NEXUS é a solução certa para sua barbearia.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section section" id="contato">
+            <div class="container">
+                <div class="cta-box">
+                    <div class="cta-glow"></div>
+                    <span class="eyebrow">SUA BARBEARIA MERECE EVOLUIR</span>
+                    <h2>Pronto para ter<br><span class="gold">mais controle?</span></h2>
+                    <p>Conheça o NEXUS Agenda e veja como simplificar a gestão da sua barbearia.</p>
+                    <a href="mailto:CONTATO@SEUDOMINIO.COM?subject=Quero%20conhecer%20o%20NEXUS%20Agenda"
+                       class="button button-primary" id="contact-button">
+                        Falar com a equipe <span>↗</span>
+                    </a>
+                    <small>Entre em contato para conhecer a plataforma.</small>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#inicio" class="logo">
+                <span class="logo-mark">
+                  <img src="logo.png" alt="NEXUS Agenda">
+                </span>
+                <span>NEXUS<span class="gold">.</span><small>AGENDA</small></span>
+            </a>
+            <p>Organização e praticidade para sua barbearia.</p>
+            <span class="copyright">© <span id="year"></span> NEXUS Agenda. Todos os direitos reservados.</span>
+        </div>
+    </footer>
+
+</body>
+</html>
