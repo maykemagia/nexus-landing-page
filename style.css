@@ -164,7 +164,7 @@ button {
     align-items: center;
     gap: 9px;
     color: var(--gold);
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
 }
